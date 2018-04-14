@@ -1,13 +1,8 @@
-print("Twinkle, twinkle, little star, How I wonder what you are!")
-print("Up above the world so high, Like a diamond in the sky.")
-print("Twinkle, twinkle, little star, How I wonder what you are")
-print("")
-print('Twinkle, twinkle, little star, How I wonder what you are!\nUp above the world so high, Like a diamond in the sky.\nTwinkle, twinkle, little star, How I wonder what you are')
+import numpy as np
+array = [0,1,2,3,4,5,6]
 
-song="""
-Twinkle, twinkle, little star, How I wonder what you are!
-Up above the world so high, Like a diamond in the sky.
-Twinkle, twinkle, little star, How I wonder what you are
-"""
+second_array = np.power(array,array)
 
-print(song)
+print('Original array ' + str(array) + ' First array elements raised to powers from second array, element-wise: ' + str(second_array))
+
+
